@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    height: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: #2F281E;
+    margin-right: 16px;
+}
+
+.menu-item:hover{
+    color: #949494;
+}
+
+.btn-masuk{
+    font-weight: 600;
+    background-color: #ffff;
+    color: #173A56;
+    border-radius: 4px;
+    border: 3px solid #BCD0E5;
+    padding: 12px 24px;
+}
+.btn-daftar{
+    font-weight: 600;
+    background-color: #FF9900;
+    color: #FFF;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
